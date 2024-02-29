@@ -71,6 +71,7 @@ Projeto interno para resolver um problema no condomínio. Precisa ligar para nã
 ### Feito com
 
 * [![Arduino][Arduino]][Arduino-url]
+* [![Cpp][Cpp]][Cpp-link]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -180,6 +181,8 @@ Project Link: [https://github.com/marlon-yow/exaustor](https://github.com/marlon
 [license-shield]: https://img.shields.io/github/license/marlon-yow/exaustor.svg?style=for-the-badge
 [license-url]: https://github.com/marlon-yow/exaustor/blob/master/gpl-3.0.txt
 [product-screenshot]: images/screenshot.png
-[Arduio]: https://img.shields.io/badge/Arduino-00878F?style=for-the-badge&logo=arduino&logoColor=white
+[Arduino]: https://img.shields.io/badge/Arduino-00878F?style=for-the-badge&logo=arduino&logoColor=white
 [Arduino-url]: https://docs.arduino.cc/
 [Arduino-IDE-url]: https://docs.arduino.cc/software/ide-v2/tutorials/getting-started-ide-v2/
+[Cpp]: https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c++&logoColor=white
+[Cpp-link]: https://docs.arduino.cc/programming/
