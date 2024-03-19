@@ -30,7 +30,7 @@ void setup() {
     // Configura o pino do LED como saída
     pinMode(ledPin[i], OUTPUT);
     // Inicializa o estado do LED e RELE como desligado
-    digitalWrite(relePin[i], LOW);
+    digitalWrite(relePin[i], HIGH);
     digitalWrite(ledPin[i], LOW);
 
     // Inicializa a variável de tempo
@@ -57,7 +57,7 @@ void loop() {
         if (!releAtivado[i]) {
           Serial.write("ligar rele ");
           // Ativa o relé
-          digitalWrite(relePin[i], HIGH);
+          digitalWrite(relePin[i], LOW);
           digitalWrite(ledPin[i], HIGH);
           releAtivado[i] = true;
           // Armazena o tempo em que o botão foi pressionado
@@ -66,7 +66,7 @@ void loop() {
         } else {
           Serial.write("desligar rele ");          
           // Desativa o relé
-          digitalWrite(relePin[i], LOW);
+          digitalWrite(relePin[i], HIGH);
           digitalWrite(ledPin[i], LOW);
           releAtivado[i] = false;
         }
@@ -84,7 +84,7 @@ void loop() {
         Serial.write("timer desligar ");
         Serial.print(i);
         Serial.println();
-        digitalWrite(relePin[i], LOW);
+        digitalWrite(relePin[i], HIGH);
         digitalWrite(ledPin[i], LOW);
         releAtivado[i] = false;
       }
